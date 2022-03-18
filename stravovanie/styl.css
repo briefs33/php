@@ -1,0 +1,67 @@
+.button_obsah, .left, td.prihlasenie, th.pracovisko, legend, p{text-align:left;}
+.button_obsah{width:165px; text-decoration:none; cursor:pointer; font-size:16px;}
+.button_obsah{padding:5px;}
+.rotate_objed{padding:5px;}
+footer{padding:5px; bottom: 0; overflow: hidden; /* width: 100%; */}
+header{padding:5px; top: 0; /*overflow: hidden; position: fixed; width: 100%;*/}
+span.tooltip div{padding:5px;}
+.button_obsah, img{border:none; display:inline-block;}
+.button_obsah, span.tooltip, em{margin:0;}
+.center, .upozorneniestr, th.zoznam_na_stravu, fieldset, div, footer, h1, h2, h3, td {text-align:center;}
+.right, header, p#oddelenie_nazov{text-align:right;}
+.rotate, nav{padding:0;}
+.rotate, .rotate_objed{-webkit-transform:rotate(-90deg); -moz-transform:rotate(-90deg); -ms-transform:rotate(-90deg); -o-transform:rotate(-90deg);}
+.tri_stlpce{-webkit-column-count: 3; -moz-column-count: 3; column-count: 3; -webkit-column-gap: 40px; -moz-column-gap: 40px; column-gap: 40px;}
+fieldset.mikro{max-width:280px;}
+fieldset.mini{max-width:380px;}
+fieldset.siroky{max-width:850px;}
+fieldset.uzky{max-width:650px;}
+span.tooltip{cursor:help;}
+span.tooltip div{text-align:justify; font-weight:normal; width:380px; border:1px solid #cccccc; -moz-border-radius:12px; background:#ffffcc; position:absolute; top:1.35em; left:1.6em;}
+span.tooltip div, span.tooltip div.hover, span.tooltip div:hover{visibility:hidden;}
+span.tooltip, nav{position:relative;}
+span.tooltip strong{display:block;}
+span.tooltip.hover div, span.tooltip:hover div{visibility:visible; z-index:10px;}
+td.jl, th.zoznam_na_stravu{padding-left:0; padding-right:0;}
+td, th{padding-left:10px; padding-right:10px;}
+td.center, td.prihlasenie, td.oramovanie, td.zrazkova_listina, th.zrazkova_listina, em{padding-left:4px; padding-right:4px;}
+textarea.jl, em{font-family:Arial, Helvetica, sans-serif;}
+textarea.jl{font-size:14px;}
+th.zoznam_na_stravu{width:250px;}
+th.zrazkova_listina{font-size:12px;}
+em{border-radius:100%; font-style: normal; font-weight: bold;}
+fieldset, div{margin-top:20px;}
+p{margin-top:5px; margin-bottom:5px;}
+fieldset, table{margin-left:auto; margin-right:auto; margin-bottom:20px;}
+h3{font-style:oblique;}
+iframe{height:400px; width:800px;}
+/*nav{height:500px; width:165px; float:left;}*/
+/*section{margin-left:30px;}*/
+table{border-collapse:collapse;}
+@media print{.noprint{display:none;}}
+/*@media screen{.section{padding:10px; margin-left:205px;}}*/
+@media screen{.skrite{display:none;}}
+@media screen and (max-width: 799px) {
+  .skrite_hr{display:none;}
+  nav {/*
+    cursor: pointer; /* Pointer/hand icon *//*
+    display: block; /* Make the buttons appear below each other *//*
+    position: absolute; /* Position them relative to the browser window *//*
+    left: -145px; /* Position them outside of the screen *//*
+    transition: 0.3s; /* Add transition on hover *//*
+    width: 165px; /* Set a specific width *//*
+    text-decoration: none; /* Remove underline *//*
+    font-size: 20px; /* Increase font size *//*
+    color: white; /* White text color *//*
+}
+  /*---p.nav:hover {left: 0;}
+  /*---nav{height:500px; width:165px; float:left;}*/
+  section{margin-left:0px;}
+  }
+}
+
+@media screen and (min-width: 800px) {
+nav{height:500px; width:165px; float:left;}
+section{margin-left:170px;}
+section.bez_obsahu{margin-left:0px;}
+}

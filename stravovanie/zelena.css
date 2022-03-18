@@ -1,0 +1,21 @@
+.button_obsah, table.podfarbene, tr.farba:nth-child(even), nav, em{background-color:#ccffcc;}
+.button_obsah:hover, .hlavicka, td.aktualny, em:hover, footer, header{color:white; text-shadow:0.5px 0.5px #808080;}
+.button_obsah:hover, .hlavicka, em:hover{background-color:#009900;}
+.sviatok{background-color:#ff3300;}
+.vykend, button.upozornenie:hover{background-color:#ffff00;}
+a:link{color:blue;}
+.upozorneniestr, p.upozornenie, a:hover{color:#ff0000;}
+.button_obsah, a:active{color:black;}
+button.dnes{background-color:#00fa9a;}
+button.objednane, button.objednanednes, button.objednanesviatok, button.objednanevykend{background-color:#99ff00;}
+button.upozornenie{background-color:#ff00ff;}
+button.dnes:hover, button.objednane:hover, button.objednanednes:hover{border-color:#00cc7e;}
+button.objednanednes{border-color:#00fa9a;}
+button.objednanevykend, button.upozornenie{border-color:#ffff00;}
+button.sviatok:hover, button.objednanesviatok:hover{border-color:#ff0000;}
+button.upozornenie:hover{border-color:#ff00ff;}
+button.vykend:hover, button.objednanevykend:hover{border-color:#ff9900;}
+td.aktualny{background-color:#33cc33}
+td.oramovanie{border-top:1px solid #ddd;}
+tr.farba:hover{background-color:#4dff4d;}
+footer, header{background-color:#008000; clear:both;}
