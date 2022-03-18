@@ -1,5 +1,4 @@
-# php
-elektronicke objednavanie stravy a depozit
+# elektronicke objednavanie stravy a depozit
 
 elektronicke objednavanie stravy (2015 - 2022):
  - používa knižnicu TCPDF a phpSreadsheet (predtým phpExcel)
